@@ -14,7 +14,7 @@ namespace FSocietyBot
         public async Task TestCommand(CommandContext ctx)
         {
             Random rndm = new Random();
-            int size = rndm.Next(1, 31);
+            int size = rndm.Next(1, 32);
             if (size == 31)
             {
                 await ctx.Channel.SendMessageAsync("() you don't have a dick you have pussy</color>");
